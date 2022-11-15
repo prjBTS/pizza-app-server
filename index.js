@@ -28,7 +28,7 @@ app.use('/api', addressRoutes);
 app.use('/api', orderRoutes);
 
 app.get('/', (req, res) => {
-    res.send("All API for TPO GCE");
+    res.send("All API for E-PIZZA_STORE");
 })
 const PORT = process.env.PORT || 5000;
 
